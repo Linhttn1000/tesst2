@@ -8,3 +8,9 @@ class calculate():
         return self.a - self.b
     def mul(self):
         return self.a * self.b
+    def div(self):
+        return self.a / self.b
+
+    def __strr__(self):
+        return "a = {}, b = {}".format(self.a, self.b)
+    
